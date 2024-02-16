@@ -1,8 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
+
 body {
-    background-image: url("bg.avif");
-    width: 100%;
-    /* background-size:cover; */
-  }
+  background-image: url("bg.avif");
+  width: ;
+  /* background-size:cover; */
+}
+nav {
+  font-size: 1em;
+  margin: -10px -10px auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #2f2f36;
+}
+
+.logo h1 {
+  color: #fff;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  margin-right: 50px;
+}
+
+.nav-links li {
+  margin: 10px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  color: #ddd;
+}
+
+
+
+
+
+
+/*  */
+
   .topmenu {
     color: lightgray;
     margin: 20px;
